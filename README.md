@@ -1,24 +1,30 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## [URL Shortener](https://radiant-gorge-16116.herokuapp.com/)
 
-Things you may want to cover:
+### Requirements
 
-* Ruby version
+* Ruby version: 3.1.2
+* Rails version: 7.0.4
+* Yarn version: 1.22.19
+* Node version: 16.4.0
 
-* System dependencies
+### Test
 
-* Configuration
+```ruby
+rails db:create
+rails db:migrate
 
-* Database creation
+rails assets:precompile
 
-* Database initialization
+rails test
+```
 
-* How to run the test suite
+### Development
 
-* Services (job queues, cache servers, search engines, etc.)
+```ruby
+rails db:create
+rails db:migrate
 
-* Deployment instructions
-
-* ...
+foreman start -f Procfile.dev
+```

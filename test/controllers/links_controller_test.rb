@@ -2,7 +2,8 @@ require "test_helper"
 
 class LinksControllerTest < ActionDispatch::IntegrationTest
   setup do
-    @link = links(:one)
+    @no_slug_one    = links(:no_slug_one)
+    @with_slug_one  = links(:with_slug_one)
   end
 
   test "should get index" do
@@ -10,39 +11,16 @@ class LinksControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
-  test "should get new" do
-    get new_link_url
-    assert_response :success
-  end
-
   test "should create link" do
     assert_difference("Link.count") do
-      post links_url, params: { link: { clicked: @link.clicked, slug: @link.slug, url: @link.url } }
-    end
-
-    assert_redirected_to link_url(Link.last)
-  end
-
-  test "should show link" do
-    get link_url(@link)
-    assert_response :success
-  end
-
-  test "should get edit" do
-    get edit_link_url(@link)
-    assert_response :success
-  end
-
-  test "should update link" do
-    patch link_url(@link), params: { link: { clicked: @link.clicked, slug: @link.slug, url: @link.url } }
-    assert_redirected_to link_url(@link)
-  end
-
-  test "should destroy link" do
-    assert_difference("Link.count", -1) do
-      delete link_url(@link)
+      post '/links', params: { link: { slug: @no_slug_one.slug, url: @no_slug_one.url } }
     end
 
     assert_redirected_to links_url
+  end
+
+  test "should redirect link" do
+    get short_url(slug: @with_slug_one.slug)
+    assert_redirected_to @with_slug_one.url
   end
 end

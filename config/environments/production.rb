@@ -90,4 +90,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  # set default host and protocol
+  Rails.application.routes.default_url_options = { host: "radiant-gorge-16116.herokuapp.com", protocol: 'https' }
 end

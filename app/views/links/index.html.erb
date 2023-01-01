@@ -2,13 +2,15 @@
 
 <h1>Links</h1>
 
+<div class="mt-4">
+  <%= render "form", link: @link %>
+</div>
+
 <div id="links">
   <% @links.each do |link| %>
     <%= render link %>
     <p>
-      <%= link_to "Show this link", link %>
+      <%= link_to "Visit link", short_url(slug: link.slug) %>
     </p>
   <% end %>
 </div>
-
-<%= link_to "New link", new_link_path %>

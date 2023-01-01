@@ -3,7 +3,7 @@ class LinksController < ApplicationController
 
   # GET /links or /links.json
   def index
-    @links  = Link.all
+    @links  = Link.all.order(created_at: :desc)
     @link   = Link.new
   end
 

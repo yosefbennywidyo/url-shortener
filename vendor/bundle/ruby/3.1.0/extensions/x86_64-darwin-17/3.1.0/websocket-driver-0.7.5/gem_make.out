@@ -1,0 +1,15 @@
+current directory: /Users/yb_widyokarsono/Work/yosefbennywidyo/assignment/peoplebox/url-shortener/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+/Users/yb_widyokarsono/.asdf/installs/ruby/3.1.2/bin/ruby -I /Users/yb_widyokarsono/.asdf/installs/ruby/3.1.2/lib/ruby/site_ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/yb_widyokarsono/Work/yosefbennywidyo/assignment/peoplebox/url-shortener/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230101-32951-uaowxt sitelibdir\=./.gem.20230101-32951-uaowxt clean
+
+current directory: /Users/yb_widyokarsono/Work/yosefbennywidyo/assignment/peoplebox/url-shortener/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230101-32951-uaowxt sitelibdir\=./.gem.20230101-32951-uaowxt
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/yb_widyokarsono/Work/yosefbennywidyo/assignment/peoplebox/url-shortener/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230101-32951-uaowxt sitelibdir\=./.gem.20230101-32951-uaowxt install
+/usr/local/bin/ginstall -c -m 0755 websocket_mask.bundle ./.gem.20230101-32951-uaowxt

@@ -1,0 +1,19 @@
+current directory: /Users/yb_widyokarsono/Work/yosefbennywidyo/assignment/peoplebox/url-shortener/vendor/bundle/ruby/3.1.0/gems/io-console-0.6.0/ext/io/console
+/Users/yb_widyokarsono/.asdf/installs/ruby/3.1.2/bin/ruby -I /Users/yb_widyokarsono/.asdf/installs/ruby/3.1.2/lib/ruby/site_ruby/3.1.0 extconf.rb
+checking for termios.h... yes
+checking for cfmakeraw() in termios.h... yes
+checking for sys/ioctl.h... yes
+checking for HAVE_RUBY_FIBER_SCHEDULER_H... yes
+creating Makefile
+
+current directory: /Users/yb_widyokarsono/Work/yosefbennywidyo/assignment/peoplebox/url-shortener/vendor/bundle/ruby/3.1.0/gems/io-console-0.6.0/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20230101-32951-h5pa12 sitelibdir\=./.gem.20230101-32951-h5pa12 clean
+
+current directory: /Users/yb_widyokarsono/Work/yosefbennywidyo/assignment/peoplebox/url-shortener/vendor/bundle/ruby/3.1.0/gems/io-console-0.6.0/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20230101-32951-h5pa12 sitelibdir\=./.gem.20230101-32951-h5pa12
+compiling console.c
+linking shared-object io/console.bundle
+
+current directory: /Users/yb_widyokarsono/Work/yosefbennywidyo/assignment/peoplebox/url-shortener/vendor/bundle/ruby/3.1.0/gems/io-console-0.6.0/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20230101-32951-h5pa12 sitelibdir\=./.gem.20230101-32951-h5pa12 install
+/usr/local/bin/ginstall -c -m 0755 console.bundle ./.gem.20230101-32951-h5pa12/io

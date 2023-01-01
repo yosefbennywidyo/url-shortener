@@ -1,0 +1,15 @@
+current directory: /Users/yb_widyokarsono/Work/yosefbennywidyo/assignment/peoplebox/url-shortener/vendor/bundle/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/yb_widyokarsono/.asdf/installs/ruby/3.1.2/bin/ruby -I /Users/yb_widyokarsono/.asdf/installs/ruby/3.1.2/lib/ruby/site_ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/yb_widyokarsono/Work/yosefbennywidyo/assignment/peoplebox/url-shortener/vendor/bundle/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20230101-32951-7nd5vw sitelibdir\=./.gem.20230101-32951-7nd5vw clean
+
+current directory: /Users/yb_widyokarsono/Work/yosefbennywidyo/assignment/peoplebox/url-shortener/vendor/bundle/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20230101-32951-7nd5vw sitelibdir\=./.gem.20230101-32951-7nd5vw
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/yb_widyokarsono/Work/yosefbennywidyo/assignment/peoplebox/url-shortener/vendor/bundle/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20230101-32951-7nd5vw sitelibdir\=./.gem.20230101-32951-7nd5vw install
+/usr/local/bin/ginstall -c -m 0755 cruby.bundle ./.gem.20230101-32951-7nd5vw/skiptrace/internal
